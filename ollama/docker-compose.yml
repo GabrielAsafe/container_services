@@ -1,0 +1,11 @@
+services:
+  alpaca-webui:
+    build: .
+    container_name: alpaca-webui
+    ports:
+      - "7860:7860"
+    volumes:
+      - /home/gabriel/webui_models:/root/webui_data/models:Z
+
+    stdin_open: true
+    tty: true
