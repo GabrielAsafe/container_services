@@ -27,5 +27,3 @@ EXPOSE 7860
 
 # Comando para iniciar a WebUI
 CMD ["bash", "-c", "cd /opt/webui && python3 server.py --portable --listen --listen-port 7860 --listen-host 0.0.0.0"]
-
-

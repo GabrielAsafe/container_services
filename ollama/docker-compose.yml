@@ -5,7 +5,6 @@ services:
     ports:
       - "7860:7860"
     volumes:
-      - /home/gabriel/webui_models:/root/webui_data/models:Z
-
+      - /home/gabriel/webui_models:/opt/webui/user_data/models:Z
     stdin_open: true
     tty: true
